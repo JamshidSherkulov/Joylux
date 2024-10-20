@@ -78,6 +78,11 @@ ul li a {
     font-weight: 600;
 }
 
+ul li a:hover {
+    border-bottom: 1px solid #A1A1A1;
+    transition: border-bottom, 0.3s;
+}
+
 .icons {
     display: flex;
     flex-grow: 2;
@@ -124,6 +129,23 @@ header .main_headings h4 {
 header .main_headings button {
     padding: 10px 20px;
     text-transform: uppercase;
+}
+
+header .shop_btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to right, #EBBF7C, #CE9846, #EBBF7C);
+    border-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+header .quiz_btn {
+    text-transform: uppercase;
+    color: #CB374F;
+    border: 2px solid #CB374F;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
 /* Usage */
