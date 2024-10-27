@@ -165,7 +165,7 @@ header .quiz_btn {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -174,5 +174,95 @@ header .quiz_btn {
 }
 
 #usage .logo img {
+    width: 100%;
+    object-fit: contain;
+}
 
+#usage .service_details {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#usage .service_details div {
+    width: 40%;
+}
+
+#usage .service_details img {
+    width: 100%;
+}
+
+#usage .service_details h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+#usage .service_details h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #585C5C;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+#usage .service_details p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#usage .service_details button {
+    padding: 10px 20px;
+    color: #925754;
+    text-transform: uppercase;
+    border: 2px solid #925754;
+    margin: 15px 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#usage .service_details button:hover {
+    background-color: #925754;
+    color: #fff;
+    transition: all .5s;
+}
+
+/* Description */
+
+.description {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description > div {
+    width: 80%;
+    padding: 50px;
+}
+
+.description div, h3, p {
+    text-align: center;
+}
+
+.description > div h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #925754;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.description > div p {
+    color: #925754;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    line-height: 1.4;
 }
