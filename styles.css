@@ -266,3 +266,51 @@ header .quiz_btn {
     margin-top: 10px;
     line-height: 1.4;
 }
+
+/* Video Guide */
+
+.video_guide {
+    background-color: #F3E4E2;
+    overflow: hidden;
+}
+
+.video_guide .container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.video_guide .container div {
+    padding: 30px;
+}
+
+.video_guide .container div h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #333B3A;
+}
+
+.video_guide .container div p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: start;
+    margin: 20px 0;
+    color: #333B3A;
+}
+
+.video_guide .container button {
+    color: #925754;
+    text-transform: uppercase;
+    border: 2px solid #925754;
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
